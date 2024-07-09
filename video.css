@@ -1,0 +1,101 @@
+
+ .thumbnail {
+  width: 100%;
+  }
+ 
+  .video-title{
+    width: 250px;
+    font-size: 14px;
+   font-weight: 600;
+    margin-bottom: 10px;
+    margin-top: 9px;
+
+  }
+  .video-author{
+    display: block;
+    font-size: 12px;
+     color: #606060;
+     margin-bottom: 3px;
+  }
+  .video-stats{
+    display: block;
+    font-size: 12px;
+    color: #606060;
+   
+  }
+
+  .youtuber{
+    vertical-align: top;
+  }
+
+  .youtuber :hover{
+    cursor:pointer;
+  }
+
+  .profile-picture{
+    border-radius: 20px;
+    width: 40px;
+    margin-bottom: 35px;
+    margin-top: 8px;
+  
+  }
+  .content{
+    width: 250px;
+ 
+  }
+  .video-info-grid{
+     display: grid;
+     grid-template-columns: 50px 1fr;
+  }  
+  .video-grid{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 15px;
+    row-gap: 40px;
+  }
+
+   @media (max-width: 1025px){
+    .video-grid{
+      grid-template-columns: 1fr 1fr;
+    }
+   }
+
+   @media(max-width :1026px) and (min-width:1300px){
+    .video-grid{
+     grid-template-columns: 1fr 1fr 1fr;
+    }
+   }
+
+   @media(min-width: 1301px){
+     .video-grid{
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+     }
+   }
+
+  
+  .video-time{
+    background-color: black;
+    color: white;
+    position: absolute;
+    bottom: 13px;
+    right: 8px;
+    font-size: 13px;
+    padding: 4p x;
+    font-weight: 500;
+    padding: 4px;
+    
+ 
+  }
+
+  .thumbnail-row{
+    position: relative;
+
+  }
+
+  .thumbnail-row :hover{
+    cursor: pointer ;
+  }
+
+ 
+  

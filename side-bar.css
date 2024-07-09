@@ -1,0 +1,69 @@
+.upload{
+  height: 27px;
+
+}
+.youtube-app{
+  height: 27px;
+}
+
+.notifications{
+  height: 27px;
+}
+
+.youtuber-main-channel{
+  height:40px;
+  border-radius: 20px;
+ 
+}
+
+
+.side-bar{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 85px;
+  top:55px;
+  background-color: white;
+  display: flex;
+ justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  z-index: 2;
+  border-right-color: black;
+  border-right-width: 1px;
+  padding-top: 5px;
+  flex-shrink: 0;
+  
+}
+
+
+.side-bar-link{
+  height: 74px;
+  width: 85px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+ flex-direction: column;
+
+
+}
+
+.side-bar-link:hover{
+  background-color: rgb(235, 235, 235);
+ cursor: pointer;
+  
+}
+
+.side-bar-icon{
+  height: 25px;
+  width: 25px;
+  margin-bottom: 4px;
+}
+
+.side-bar-link div{
+  font-size: 10px;
+
+}
+
+
